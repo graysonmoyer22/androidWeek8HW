@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:id="@+id/content">
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="hover over me"
+        android:id="@+id/hover" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="transition"
+        android:id="@+id/transition" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="snackbar"
+        android:id="@+id/snackbar" />
+
+</LinearLayout>
